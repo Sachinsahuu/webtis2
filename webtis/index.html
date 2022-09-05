@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>RBS Polytechnic Agra</title>
+      <link rel="stylesheet" href="assets/css/style.css">
+      <!-- <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">  -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   </head>
+   <style>
+      :root {
+      --primary-color: #fbb034;
+      --secondary-color: #00a4f5;
+      --bg-color: #fff;
+      --heading-color: #060606;
+      --font-color: #6f6f6f;
+      --border-radius: 8px;
+      --border-radius-full: 30px;
+      --border-color-light: #eee;
+      --iframe-filter: grayscale(0%);
+      --bg-grey: #f4f4f4;
+      --bg-light: #fbfbfb;
+      --box-shadow: 0 0.5rem 1rem rgb(12 12 12 / 5%);
+      --banner-layer: rgb(255 255 255 / 90%);
+      --gradient-color: linear-gradient(to left, #11d5ff 0%, #0089cd 100%);
+      --gradient-color-banner: linear-gradient(to left, #00c9f5 0%, #00a4f5 100%);
+      --layer: rgb(1 121 179 / 75%);
+      --subscribe-footer-input: #fff;
+      }
+      .btn-danger {
+      padding: 12px 36px 14px;
+      font-size: 16px;
+      color: #fff;
+      border-radius: var(--border-radius-full);
+      font-weight: bold;
+      outline: none;
+      border: none;
+      background: orange;
+      /* transition: all 1.8s ease-in-out; */
+      }
+
+
+
+      
+   </style>
+   <body>
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-md-12">
+               <nav class="navbar navbar-expand-sm    navbar-dark">
+                  <!-- Brand/logo -->
+                  <a class="navbar-brand" href="#">
+                  <i class="fa fa-graduation-cap cap" aria-hidden="true"></i>
+                  <img src="assets/img/rbsnew.png" alt="logo" style="width:90px;">
+                  </a>
+                  <button class="navbar-toggler bg-warning" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="fa fa-bars" style="color: red;"></span>
+                  </button>
+                  <!-- Links -->
+                  <div class="collapse navbar-collapse" id="navbarText">
+                     <ul class="navbar-nav offset-md-3">
+                        <li class="nav-item offset-md-2">
+                           <a class="nav-link text-dark" href="#">home </a>
+                        </li>
+                        <li class="nav-item offset-md-2">
+                           <a class="nav-link text-dark" href="#">about </a>
+                        </li>
+                        <li class="nav-item offset-md-2">
+                           <a class="nav-link text-dark" href="#">service </a>
+                        </li>
+                        <li class="nav-item offset-md-2">
+                           <a class="nav-link text-dark" href="#">course </a>
+                        </li>
+                        <li class="nav-item offset-md-2">
+                           <a class="nav-link text-dark" href="#">contact </a>
+                        </li>
+                        <li class="nav-item offset-md-2">
+                           <a class="nav-link text-dark" href="#">login </a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="text-right p-4"><span class="fa fa-search"></span></div>
+                  <div class="text-right"><span class="fa fa-moon-o"></span></div>
+               </nav>
+            </div>
+         </div>
+         <!-- <div class="carousel-item">
+            <img src="assets/img/banner-02.jpg"  height="500px" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>hello world...</h5>
+              <p>this is my first crousel...</p>
+            </div>
+            </div> -->
+         <div class="row">
+            <div class="col-md-6 ">
+               <div id="demo" class="carousel slide" data-ride="carousel">
+                  <div class="display-2 font-weight-bold">
+                     <p>Your Kids Deserve The</p>
+                  </div>
+                  <div class="display-3">
+                     <span>Best Education</span>
+                  </div>
+                  <div class="mt-4">
+                     <h4>Active Learning, Expert Teachers & Safe Environment </h4>
+                  </div>
+               </div>
+               <button class="btn btn-danger mt-5">Admission Now</button>
+            </div>
+            <div class="col-md-6 ">
+               <div id="demo" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                     <div class="carousel-item active">
+                        <img src="assets/img/image.png" alt="Los Angeles" width="330px">
+                     </div>
+                     <div class="col-md-3 mt-3">
+                        <div class="a"><span class="fa fa-arrow-down icon"></span>Back To School</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row text-center">
+            <div class="text-center mt-5 col-md-12">
+               <p class="text-center">BEST FEATURES</p>
+               <div class="display-4 font-weight-bold">
+                  <p>Achieve Your Goals </p>
+                  <span>With Edu School</span>
+               </div>
+            </div>
+         </div>
+         <div class="container">
+            <div class="row mt-5">
+               <div class="col-md-3">
+                  <div class="col-md-12 hvr text-center  bg-light">
+                     <div class="display-3 ">
+                        <i class="fa fa-users ab" aria-hidden="true"></i>
+                     </div>
+                     <h4>Experts Teachers</h4>
+                     <p class="text-justify-center">Ras effic itur metusga via suscipit consect eturerse adi unde omnis Nemo enim ipsam oluptatem quia oluptas. </p>
+                  </div>
+               </div>
+               <div class="col-md-3  ">
+                  <div class="col-md-12 hvrr text-center bg-light">
+                     <div class="display-3">
+                        <i class="fa fa-book b" aria-hidden="true"></i>
+                     </div>
+                     <h4>Quality Education</h4>
+                     <p class="text-justify-center">Ras effic itur metusga via suscipit consect eturerse adi unde omnis Nemo enim ipsam oluptatem quia oluptas.</p>
+                  </div>
+               </div>
+               <div class="col-md-3 ">
+                  <div class="col-md-12 hvrrr text-center  bg-light ">
+                     <div class="display-3">
+                        <i class="fa fa-user-secret c" aria-hidden="true"></i>
+                     </div>
+                     <h4>Life Time Support</h4>
+                     <p class="text-justify-center">Ras effic itur metusga via suscipit consect eturerse adi unde omnis Nemo enim ipsam oluptatem quia oluptas.</p>
+                  </div>
+               </div>
+               <div class="col-md-3 ">
+                  <div class="col-md-12 hvrrrr text-center bg-light">
+                     <div class="display-3">
+                        <i class="fa fa-university d" aria-hidden="true"></i>
+                     </div>
+                     <h4>Best Scholarships</h4>
+                     <p class="text-justify-center">Ras effic itur metusga via suscipit consect eturerse adi unde omnis Nemo enim ipsam oluptatem quia oluptas.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container">
+            <div class="row mt-5">
+               <div class="col-md-6 ">
+                  <img src="assets/img/girls.jpg" width="100%">
+               </div>
+               <div class="col-md-6">
+                  <div class="display font-weight-bold text-center">
+                     <p>We'r The Best Choice For Your Child </p>
+                  </div>
+                  <div class="mt-4 text-center ml-3">
+                     <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p  >
+                  </div>
+                  <div class="ml-3 mt-5">
+                     <i class="fa fa-check-circle " style="color: orange;" aria-hidden="true"></i>
+                     Special Education<br>
+                     <span><i class="fa fa-check-circle bg bg-warning " style="color: white;" aria-hidden="true"></i>
+                     Access more then 100K online courses<br>
+                     <i class="fa fa-check-circle bg bg-warning " style="color: white;" aria-hidden="true"></i>
+                     Traditional Academies
+                  </div>
+                  <div class="mt-5">
+                     <button class="btn btn-danger">Apply Now</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container-fluid bg-light">
+            <div class="row text-center">
+               <div class="text-center mt-5 col-md-12">
+                  <p class="text-center">BEST COURSES</p>
+                  <div class="display1 font-weight-bold">
+                     <p>Find The Right Course<br>           
+                        For You  
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-4 mt-5">
+                  <div class="col-md-12 bg-white">
+                     <div class="inner">
+                        <img src="assets/img/art.jpg" width="100%">
+                     </div>
+                     <div class="col-md-12 ">
+                        <div class="ml-3 mt-4">
+                           <i class="fa fa-graduation-cap s" aria-hidden="true"></i>
+                           <span  style="color:#161010">43 Lessons</span>
+                           <div class="pull-right mr-3">
+                              <div class="star">
+                                 <i class="fa fa-star" aria-hidden="true"></i>
+                                 <span style="color:#161010">4.5</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="text-justify mt-3 ml-3 font-weight-bold">Educational Programs</div>
+                        <div class="mt-2 ml-3">
+                           <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <div class="col-md-12">
+                           <div class="ml-3 mt-4 font-weight-bold">
+                              $42.00 
+                              <div class="pull-right mr-3">Know Details<span><i class="fa fa-arrow-right" aria-hidden="true"></i></span></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4 mt-5">
+                  <div class="col-md-12 bg-white">
+                     <div class="inner">
+                        <img src="assets/img/art.jpg" width="100%">
+                     </div>
+                     <div class="col-md-12 ">
+                        <div class="ml-3 mt-4">
+                           <i class="fa fa-graduation-cap s" aria-hidden="true"></i>
+                           <span  style="color:#161010">43 Lessons</span>
+                           <div class="pull-right mr-3">
+                              <div class="star">
+                                 <i class="fa fa-star" aria-hidden="true"></i>
+                                 <span style="color:#161010">4.5</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="text-justify mt-3 ml-3 font-weight-bold">Educational Programs</div>
+                        <div class="mt-2 ml-3">
+                           <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <div class="col-md-12">
+                           <div class="ml-3 mt-4 font-weight-bold">
+                              $42.00 
+                              <div class="pull-right mr-3">Know Details<span><i class="fa fa-arrow-right" aria-hidden="true"></i></span></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4 mt-5">
+                  <div class="col-md-12 bg-white">
+                     <div class="inner">
+                        <img src="assets/img/art.jpg" width="100%">
+                     </div>
+                     <div class="col-md-12 ">
+                        <div class="ml-3 mt-4">
+                           <i class="fa fa-graduation-cap s" aria-hidden="true"></i>
+                           <span  style="color:#161010">43 Lessons</span>
+                           <div class="pull-right mr-3">
+                              <div class="star">
+                                 <i class="fa fa-star" aria-hidden="true"></i>
+                                 <span style="color:#161010">4.5</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="text-justify mt-3 ml-3 font-weight-bold">Educational Programs</div>
+                        <div class="mt-2 ml-3">
+                           <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <div class="col-md-12">
+                           <div class="ml-3 mt-4 font-weight-bold">
+                              $42.00 
+                              <div class="pull-right mr-3">Know Details<span><i class="fa fa-arrow-right" aria-hidden="true"></i></span></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-12">
+               <div class="mt-5 text-center">
+                  <button class="btn btn-danger">Browse more courses</button>
+               </div>
+               ...................................
+            </div>
+         </div>
+         <div class="container-fluid" style="padding-left: 0px; padding-right:0px;">
+            <div class="row text-center">
+               <div class="text-center mt-5 col-md-12">
+                  <p class="text-center">WHY CHOOSE US</p>
+                  <div class="display-4 font-weight-bold">
+                     <p>Tools For Teachers And <br>           
+                        Learners 
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-6 ">
+                  <div class="col-md-12 cap cap-i">
+                     <h4>
+                        <a href="#" style="color: white;">Expert Teachers
+                           
+                        </a>
+                  </h4>
+                  </div>
+               </div>
+               <div class="col-md-6 ">
+                  <div class="col-md-12 cap cap-i">
+                     <h4><a href="#"  style="color: white;">Safe Environment</a></h4>
+                  </div>
+               </div>
+            </div>
+            <div class="row text-center">
+               <div class="text-center mt-5 col-md-12">
+                  <p class="text-center">OUR STATISTICS</p>
+                  <div class="display-4 font-weight-bold">
+                     <p>We are Proud to Share <br>           
+                        with You 
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-3">
+                     <div class="col-md-12 ">
+                        <div class="mt-5 text-center">
+                           <img src="assets/icon/icon1.png">
+                           <h1 class="font-weight-bold">36,076</h1>
+                           <p>Students Enrolled</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-3">
+                     <div class="col-md-12">
+                        <div class="mt-5 text-center">
+                           <img src="assets/icon/icon-2.png">
+                           <h1 class="font-weight-bold mt-3">786</h1>
+                           <p>Our Branches</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-3">
+                     <div class="col-md-12">
+                        <div class="mt-5 text-center">
+                           <img src="assets/icon/icon-3.png">
+                           <h1 class="font-weight-bold mt-3">3,630
+                           </h1>
+                           <p>Total Courses </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-3">
+                     <div class="col-md-12">
+                        <div class="mt-5 text-center">
+                           <img src="assets/icon/icon-4.png">
+                           <h1 class="font-weight-bold mt-3">6,300</h1>
+                           <p>Awards Won</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         
+                 
+
+            <div class=" row mt-5">
+               <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                   <div class="carousel-inner">
+                   </div>
+               </div>
+               <div></div>
+               <div class="carousel-item active" >
+                   <img src="assets/img/banner-02.jpg" height="500px" width="100%" alt="..." >
+                     
+                   
+                   <div class="carousel-caption d-none d-md-block mb-5">
+                   
+                       <img src="assets/img/round.jpg " width="80px" class="rounded-circle">
+                       <h4 class="animated bounceinright" style="animation-delay:1s">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. </h4>
+                       <h2 class="animated bounceinleft" style="animation-delay:2s">- Anna Sth</h1>
+                     </div>
+               </div>
+             </div>
+
+      </div>
+              
+              
+                    
+      <div class="container-fluid bg-light" style="padding-left: 0px; padding-right:0px;">
+         <div class="row text-center">
+            <div class="text-center mt-5 col-md-12">
+               <p class="text-center">OUR NEWS</p>
+               <div class="display-4 font-weight-bold">
+                  <p>Latest Blog Posts</p>
+                 
+               </div>
+            </div>
+         </div>
+
+
+         <div class="row" >
+            <div class="col-md-4 mt-5">
+               <div class="col-md-12 bg-white">
+                  <div class="inner">
+                     <img src="assets/img/classroom.jpg" width="100%">
+                  </div>
+                  <div class="col-md-12 ">
+                     <div class="ml-3 mt-4">
+                        <i class="fa fa-graduation-cap s" aria-hidden="true"></i>
+                        <span  style="color:#161010">43 Lessons</span>
+                        <div class="pull-right mr-3">
+                           <div class="star">
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <span style="color:#161010">4.5</span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="text-justify mt-3 ml-3 font-weight-bold">Education Programs...</div>
+                     <div class="mt-2 ml-3">
+                        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                     </div>
+                     <div class="col-md-12">
+                        <div class="ml-3 mt-4 font-weight-bold ">
+                         <img src="assets/img/round.jpg" width="30px">
+                               <span  style="color:#161010">Eetey Cruis</span>
+                           <div class="pull-right mr-3">
+                              <div class="star">
+                                 <i class="fa fa-calendar" aria-hidden="true"></i>
+                                 <span style="color:#161010">Oct 06, 2021</span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4 mt-5">
+               <div class="col-md-12 bg-white">
+                  <div class="inner">
+                     <img src="assets/img/games.jpg" width="100%">
+                  </div>
+                  <div class="col-md-12 ">
+                     <div class="ml-3 mt-4">
+                        <i class="fa fa-graduation-cap s" aria-hidden="true"></i>
+                        <span  style="color:#161010">43 Lessons</span>
+                        <div class="pull-right mr-3">
+                           <div class="star">
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <span style="color:#161010">4.5</span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="text-justify mt-3 ml-3 font-weight-bold">Games Programs...</div>
+                     <div class="mt-2 ml-3">
+                        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                     </div>
+                     <div class="col-md-12">
+                        <div class="ml-3 mt-4 font-weight-bold">
+                           <img src="assets/img/round b.jpg" width="30px">
+                           <span style="color:#161010">Molive Joe</span>
+                           <div class="pull-right mr-3">
+                              <div class="star">
+                                 <i class="fa fa-calendar" aria-hidden="true"></i>
+                                 <span style="color:#161010">Oct 06, 2021</span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4 mt-5">
+               <div class="col-md-12 bg-white">
+                  <div class="inner">
+                     <img src="assets/img/program.jpg" width="100%">
+                  </div>
+                  <div class="col-md-12 ">
+                     <div class="ml-3 mt-4">
+                        <i class="fa fa-graduation-cap s" aria-hidden="true"></i>
+                        <span  style="color:#161010">43 Lessons</span>
+                        <div class="pull-right mr-3">
+                           <div class="star">
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <span style="color:#161010">4.5</span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="text-justify mt-3 ml-3 font-weight-bold">Articles Programs...</div>
+                     <div class="mt-2 ml-3">
+                        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                     </div>
+                     <div class="col-md-12">
+                        <div class="ml-3 mt-4 font-weight-bold">
+                           <img src="assets/img/round c.jpg" width="30px">
+                                 <span style="color:#161010">Turne Leo</span>
+                           <div class="pull-right mr-3">
+                              <div class="star">
+                                 <i class="fa fa-calendar" aria-hidden="true"></i>
+                                 <span style="color:#161010">Oct 06, 2021</span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+
+
+
+
+      </div>           
+                        
+                    
+                        <div class="row mt-5 bg-primary ">
+                           <div class="col-md-6">
+                           <div class="abcd"><h2>CALL TO ENROLL YOUR CHILD</h2> </div>
+                           <span class="ml-5 text-center">Begin the change today!</span>
+                          
+                           </div>
+
+                           <div class="col-md-6">
+                              <div class="row offset-md-5">
+                                  <div class="abc"> <i class="fa fa-volume-control-phone" aria-hidden="true"></i></div>
+                               <span> +1(23) 456 789 0000</span>
+                              </div>
+                           </div>
+
+
+                        </div>
+
+
+
+
+                        <div class="container-fluid ">
+                           <div class="row ">
+                             <div class="col-md-12 row abcde">
+                                  <div class="col-md-4 mt-5">
+                                     <h3  style="color: white;">Contact Us</h3>
+                                       <i class="fa fa-map-marker" style="color: white;" aria-hidden="true"></i>
+                                       <h5 class="mt-2" style="color: white;">Rithora,Sahukara Mohalla, Bareilly, Uttar Pradesh 243122</h5>
+
+                                       
+                                       <p class="mt-2"style="color: white;"><i class="fa fa-envelope-o" style="color: white;" aria-hidden="true"> </i>        sachinsahu3862@gmail.com</p>
+
+                                       
+                                       <h5 class="mt-2" style="color: white;"><i class="fa fa-volume-control-phone" style="color: white;"  aria-hidden="true"></i> +7302638462</h5><br>
+                                             <div class="mx-2">
+                                       <i class="fa fa-facebook" style="color: white;"  aria-hidden="true"></i>&nbsp; &nbsp;
+                                       <i class="fa fa-twitter" style="color: white;" aria-hidden="true"></i>&nbsp; &nbsp;
+                                       <i class="fa fa-google-plus" style="color: white;" aria-hidden="true"></i>&nbsp; &nbsp;
+                                              </div>
+                                  </div>
+                                       <div class="col-md-4  mt-5">
+                                         <h3  style="color: white;">Courses</h3>
+                                                 <ul class="navbar-nav" >
+                                                   <li class="nav-item">
+                                                     <a class="nav-link" href="#" style="color:white;">
+                                                       C LANGUAGE</a>
+                                                   </li>
+                                                   <li class="nav-item">
+                                                     <a class="nav-link" href="#" style="color:white ;">WEB DEVELOPMENT USING ASP.NET</a>
+                                                   </li>
+                                                   <li class="nav-item">
+                                                     <a class="nav-link" href="#" style="color:white ;">WEB DESIGNING USING HTML , CSS , BOOTSTRAP</a>
+                                                     </li>
+                                                     <li class="nav-item">
+                                                     <a class="nav-link" href="#" style="color:white ;">MY SQL SERVER  2012,13,14 & MY SQL SERVER</a>
+                                                 </li>
+                                                 <li class="nav-item">
+                                                   <a class="nav-link" href="#" style="color:white ;">SEO</a>
+                                                 </li>
+                                                 <li class="nav-item">
+                                                   <a class="nav-link" href="#" style="color:white ;">DIGITAL MARKETING  </a>
+                                                 </li>
+                                                 <li class="nav-item">
+                                                   <a class="nav-link" href="#" style="color:white ;">
+                                                     WEB DEVELOPMENT USING PHP
+                                                     Info</a>
+                                                   </li>    
+                                                 </ul>
+                                       </div>
+                                             <div class="col-md-4 mt-5"> 
+                                               <h3  style="color: white;">Information</h3>
+                                               <ul class="navbar-nav" >
+                                                 <li class="nav-item">
+                                                   <a class="nav-link" href="#" style="color:white;">Campus Tour</a>
+                                                 </li>
+                                                 <li class="nav-item">
+                                                   <a class="nav-link" href="#" style="color:white ;">Student Lifes</a>
+                                                 </li>
+                                                 <li class="nav-item">
+                                                   <a class="nav-link" href="#" style="color:white ;">Admission</a>
+                                                   </li>
+                                                   <li class="nav-item">
+                                                   <a class="nav-link" href="#" style="color:white ;">Leadership</a>
+                                               </li>
+                                               </ul>
+                                           
+                                             </div>
+                             </div>
+                             
+                           </div>
+                          
+                    </div>
+                  
+
+
+
+ 
+ </div>
+
+
+
+   </body>
+</html>
